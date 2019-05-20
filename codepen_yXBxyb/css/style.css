@@ -1,0 +1,41 @@
+.container-fluid{
+  text-align: center;
+  background-color: ;
+}
+.child{
+  margin: 5%;
+  background-color: ;
+}
+.child2{
+  background-color: white;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.info{
+  text-align: left;
+  padding-top: 3%;
+  margin-left: 10%;
+  font-family: monospace;
+  font-family: cursive;
+}
+
+.info-head{
+  font-family: serif;
+  text-align: left;
+  font-size: 24px;
+  padding-top: 7%;
+  margin-left: 16%;
+  }
+.foot{
+  text-align: left;
+  padding: 2%;
+  background-color: ;
+  font-family: sans-serif;
+}
+
+body{
+  background-image: url("http://wallpaper-gallery.net/images/free-wallpaper-for-website-backgrounds/free-wallpaper-for-website-backgrounds-3.jpg");
+}

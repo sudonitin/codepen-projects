@@ -1,0 +1,72 @@
+body{
+  background-image : url("https://onepagelove-wpengine.netdna-ssl.com/wp-content/uploads/2014/03/opl-parallax-universe.jpg");
+  background-attachment: fixed;
+  background-repeat: no repeat;
+  background-position: center;
+  background-size: cover;
+  }
+
+.title{
+  text-align: right;
+  color: white;
+  margin-right: 5%;
+  font-size: 350%;
+}
+
+.container-fluid2{
+  padding-top: 2%;
+  text-align: center;
+}
+
+.typewrite{
+  font-size: 160%;
+}
+
+.logpg2{
+  border : solid #f1f1f1;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 3%;
+  margin-bottom: 5%;
+}
+
+/*img.logo{
+  border-radius: 50%;
+  width:15%;
+  height:17%; 
+}*/
+
+.form{
+   text-align : centre;
+  font-size: 150%;
+}
+
+.required:after{
+  content: " *";
+  color: Maroon;
+  font-size: 180%;
+}
+button {
+    color: white;
+    width: 20%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input[type = text], input[type = password]{
+      width: 40%;
+    padding:  1% 2%;
+    /*margin: 8px 0;*/
+    display: inline-block;
+    border: 3px solid black;
+   
+
+    /*box-sizing: border-box;*/
+}
+
+label{
+  font-size: 120%;
+}
+

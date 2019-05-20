@@ -1,0 +1,80 @@
+body{
+background-image: url("https://i.stack.imgur.com/p9mUO.jpg");
+}
+
+.tit{
+  font-style: italic;
+}
+
+.title{
+  color: white;
+  font-family: 'Shojumaru';
+  text-align: center;
+  margin-top: 3%;
+}
+
+/*.flex-box{
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  height: 80%;
+  width: 72%;
+  text-align: center;
+  margin: 15%;
+  padding: 3% 0% 3% 0%;
+  border-radius: 3% 3%;
+}
+
+.item1{
+  border: solid;
+  flex: 4;
+  padding-bottom: 2%;
+}
+
+.item2{
+  border: solid;
+  flex: 1;
+}
+
+.btn-success{
+  background-color: blue;
+}
+
+.btn-success: hover{
+  color: grey;
+}*/
+
+.quote-box{
+  width: 60%;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 2%;
+  padding: 2%;
+  /*text-align: center;*/
+}
+.quote{
+  font-weight: bold;
+  font-size: 150%;
+  font-family: "Amita";
+  }
+.btn{ 
+  margin-left: 45%;
+  margin-right: auto;
+}
+.author{
+  font-style: italic;
+  font-size: 110%;
+  font-family: "Condiment"
+  }
+
+.btn{
+  box-shadow: 5px 5px 7px black;
+  cursor: pointer;
+  outline: none;
+  margin-top: 3%;
+}
+.btn:active{
+  box-shadow: 3px 3px black;
+  transform: translateY(20%);
+}

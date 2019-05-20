@@ -1,0 +1,202 @@
+body,html{
+  margin: 0%;
+}
+.container-fluid1{
+  margin: 0;
+  background-image: url("https://camarainternacionaldemediosmasivos.files.wordpress.com/2016/06/michael-quellier-designer-technology-background.jpg?w=1200");
+  padding-buttom: 5%;
+  background-attachment: fixed;
+   background-position: center;
+  bacground-size: cover;
+}
+
+.container-fluid2{
+  background-image: url("http://www.wallpapereast.com/static/images/pier_1080.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  bacground-csize: cover; 
+}
+
+.container-fluid3{
+  background-image: url("http://www.jeraldmason.net/Images/Website-Design-Background-1.jpg");
+ background-attachment: fixed;
+  background-position: center;
+  bacground-csize: cover;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .container-fluid1 {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-device-width: 600px) {
+    .container-fluid2 {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-device-width: 600px) {
+    .container-fluid3 {
+        background-attachment: scroll;
+    }
+}
+/*
+body{
+  padding-bottom: 4%;
+}
+.container-fluid1{
+  background: red;
+}
+.container-fluid2{
+  background: blue;
+  background-image: url("http://www.wallpapereast.com/static/images/pier_1080.jpg");
+}
+.container-fluid3{
+  background: pink;
+}*/
+.navbar ul{
+  background-color:#ddd;
+  border-radius: 1%;
+}
+
+.navbar li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 1% 5% 2% 5%;
+  font-size: 130%;
+  color: black;
+  
+}
+
+.navbar li a{
+  color: black;
+  text-decoration: none;
+  font-size: 105%;
+  font-style: bold;
+}
+.navbar li a:hover{
+  color: white;
+}
+.navbar li:hover{
+  background: grey;
+  color: white;
+}
+.head{
+  font-weight: bold;
+  text-align: center;
+  font-family: serif;
+}
+.subhead{
+  color: white;
+  font-style: italic;
+}
+.soclbtns{
+  text-align: center;
+  font-size: 250%;
+  padding-bottom: 3%;
+  
+}
+.fa{
+  padding: 2%;
+  border-radius: 50%;
+  text-align: center;
+}
+.fa:hover{
+  opacity: 0.7;
+  color: white;
+  text-decoration: none;
+}
+.fa-facebook{
+  background: #3B5998;
+  
+  color: white;
+}
+.fa-pinterest{
+  background: red;
+  color: white;
+}
+.fa-quora{
+  background: white;
+  color: red;
+}
+.fa-quora:hover{
+  color: red;
+  background: white;
+}
+.fa-github{
+  font-size: 160%;
+  color: white;
+  
+}
+.fa-linkedin{
+  background: #007bb5;
+  color: white;
+}
+
+.details{
+  text-align: right;
+  font-size: 140%;
+  font-family: cursive;
+  color: white;
+  margin-right: 4%;
+  padding-top: 2%;
+}
+.me{
+  border-color: rgb(141, 248, 12);
+  border-width: 8%;
+  border-style: solid;
+  border-radius: 50%;
+  margin-left: 5%;
+}
+
+hr{
+  width: 30%;
+  size: 40%;
+  color: red;
+}
+.foot{
+  font-style: bold;
+  font-family: serif;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+/* Make the image to responsive */
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover .overlay {
+  transform: scale(1)
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
